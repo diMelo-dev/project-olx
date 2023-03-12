@@ -1,5 +1,5 @@
 import { createContext, PropsWithChildren, useReducer } from "react";
-import { userInitialState, userReducer } from '../reducers/UserReducer';
+import { userInitialState, userReducer } from '../reducers/userReducer';
 import { themeInitialState, themeReducer } from '../reducers/themeReducer';
 import { reducerActionType } from "../types/ReducerActionType";
 import { ThemeType } from "../types/ThemeType";
